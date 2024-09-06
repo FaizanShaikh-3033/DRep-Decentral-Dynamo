@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Decentral_Dynamo",
+    "motivations": "My aspiration to become a DRep stems from my passion for decentralization and its potential to foster a more inclusive and transparent future. Having been deeply involved in the Cardano ecosystem as a developer and active community member, I've seen how collaboration and innovation drive meaningful change. My professional background as a Cardano smart contract developer, combined with my work on projects like INTERSECT, has provided me with a thorough understanding of both the technical and community dimensions of blockchain.\n\nOn a personal level, I’ve always been drawn to problem-solving and empowering others. I’ve had the privilege of working with diverse teams and participating in events like Cardano Codex and Ideascale, which have shaped my belief in the importance of collective decision-making. I want to use my skills and experience to help guide Cardano’s future by ensuring that decisions are well-informed, inclusive, and aligned with the community’s value",
+    "objectives": "As a DRep, I believe in the power of decentralization to shape a fairer, more transparent world. My role is to be a driving force, ensuring that every voice in the Cardano community is heard and valued. I’m passionate about supporting innovative projects that make a real difference and helping create a stronger, more resilient ecosystem. As a Decentral Dynamo, I’m committed to being an approachable and energetic representative who listens, acts with integrity, and advocates for positive change. Together, we can unlock the true potential of blockchain for everyone.",
+    "paymentAddress": "addr1q98k2z5zmf5fw7mffkgpnj0apz20030lphyzyyardjz8k4309pnz7ptxxryktadwfym6ecngsx0wx4lpflz9lw0agxpqf203n9",
+    "qualifications": "My experience as a Cardano developer has given me deep insights into blockchain technology and smart contract development. With proficiency in Haskell and Plutus, I have a solid technical foundation. As a founding member of INTERSECT and an active participant in Cardano events, I have a strong understanding of community dynamics and governance. My background in contributing to blockchain projects, advocating for innovation, and engaging with stakeholders equips me to effectively represent and advance Cardano’s goals.",
+    "references": []
+  }
+}
